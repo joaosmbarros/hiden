@@ -1,0 +1,5 @@
+SELECT * 
+FROM `dataplatform.credit_open.order`
+INNER JOIN `dataplatform.credit_open.loan`
+ON `dataplatform.credit_open.order`.Id = `dataplatform.credit_open.loan`.Id
+LIMIT 50;
